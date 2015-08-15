@@ -10,11 +10,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            Console.Write("enter your name: ");
-            String Name;
-           Name =  Console.ReadLine();
+          Console.Write("Enter your name: ");
+          string Name =  Console.ReadLine();
            
-            Console.WriteLine("Good Morning "+ Name);
+          Console.WriteLine("\n" + "Good Morning "+ Name+ "." + "\n");
         }
     }
 }

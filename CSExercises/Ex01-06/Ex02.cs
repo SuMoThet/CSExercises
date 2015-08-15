@@ -10,11 +10,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            int n, result;
-            Console.Write("enter an integer: ");
-            n = Convert.ToInt16( Console.ReadLine());
-            result = n * n;
-            Console.WriteLine("The square of "+n+ " is " + result);
+           Console.Write("Enter an integer: ");
+           int n1 = Convert.ToInt16( Console.ReadLine());
+           int n2 = n1 * n1;
+            Console.WriteLine("\n" + "The square of " + n1 + " is " + n2 + "\n");
         }
     }
 }
