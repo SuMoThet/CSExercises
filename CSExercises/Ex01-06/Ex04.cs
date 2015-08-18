@@ -15,6 +15,9 @@ namespace CSExercises
             double n1 = Convert.ToDouble(Console.ReadLine());
             double n2 = (int)Math.Sqrt(n1);
             Console.WriteLine("\n" + "The square root of " + n1 + " is " + n2 + "\n");
+
+
+          
         }
     }
 }
